@@ -1,0 +1,372 @@
+#nav {
+    background-color: #00CCCC;
+    border: 0px;
+}
+
+#tv {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+#nexttotv {
+    margin-left: 10px;
+    color: white;
+}
+
+#nav1,
+#nav2,
+#nav3,
+#nav4,
+#nav5 {
+    color: white;
+}
+
+#nav1:hover,
+#nav2:hover,
+#nav3:hover,
+#nav4:hover,
+#nav5:hover {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    width: 125px;
+    height: 50px;
+    color: #FF0099;
+    background-color: white;
+}
+
+#second {
+    background-color: #383838;
+    height: 45px;
+    margin-top: -20px;
+}
+
+#down,
+#up {
+    margin-top: 8px;
+}
+
+#down:hover {
+    content: url(../../images/icons/down_hover.png);
+}
+
+#up:hover {
+    content: url(../../images/icons/up_hover.png);
+}
+
+p {
+    color: white;
+    padding-top: 10px;
+}
+
+p#sen {
+    color: #383838;
+}
+
+#ml,
+#ed,
+#ah,
+#mr,
+#cp,
+#gg {
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#leftwomen,
+#centerwomen,
+#rightwomen {
+    height: 560px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 30px solid #D8D8D8;
+    background-color: white;
+}
+
+#opa1,
+#opa2,
+#opa3,
+#opa4,
+#opa5,
+#opa6 {
+    opacity: 0.7;
+}
+
+#opa1:hover,
+#opa2:hover,
+#opa3:hover,
+#opa4:hover,
+#opa5:hover,
+#opa6:hover {
+    opacity: 1.0;
+}
+
+#name {
+    color: #00CCCC;
+    margin-top: -10px;
+    text-align: center;
+}
+
+#age {
+    color: #D8D8D8;
+    margin-top: -15px;
+    text-align: center;
+}
+
+#describe {
+    color: #383838;
+}
+
+#ml:hover,
+#ed:hover,
+#ah:hover,
+#mr:hover,
+#cp:hover,
+#gg:hover {
+    -webkit-transform: rotate(20deg);
+    transition-duration: 0.2s;
+}
+
+#forth,
+#sixth,
+#eighth,
+#tenth {
+    background-color: #383838;
+    height: 45px;
+}
+
+#list1 {
+    list-style: none;
+}
+
+#three {
+    color: #00CCCC;
+}
+
+a#three:hover {
+    color: red;
+}
+
+img.flo1 {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    visibility: hidden;
+    padding-left: 300px;
+}
+
+ul.try {
+    position: relative;
+    list-style: none;
+}
+
+ul#list1 {
+    margin-top: 10px;
+}
+
+a#two {
+    color: #00CCCC;
+}
+
+a#two:hover {
+    color: red;
+}
+
+a#two:hover img {
+    visibility: visible;
+}
+
+li#opa {
+    opacity: 0.6;
+}
+
+li#opa:hover {
+    opacity: 1.0;
+}
+
+li#new:hover {
+    background-color: white;
+}
+
+#fifth,
+#seventh {
+    background-color: #F0F0F0;
+}
+
+
+/* firstpage creation */
+
+#ninth {
+    background-color: #F0F0F0;
+}
+
+#firstpage {
+    /*width: 600px;
+    margin-left: 300px;*/
+    margin-top: -5px;
+}
+
+#link {
+    float: right;
+    padding: 20px;
+}
+
+#gear:hover {
+    content: url(../../images/mobile/gear_h.png);
+    width: 35px;
+    height: 35px;
+}
+
+
+/* secondpage creation */
+
+#secondpage {
+    width: 100%;
+    background-color: white;
+}
+
+#person {
+    margin-top: 20px;
+    font-size: 200%;
+    display: inline;
+    color: #383838;
+}
+
+#done {
+    float: right;
+    margin-right: 30px;
+    margin-top: 1px;
+    width: 60px;
+    height: 30px;
+    font-size: 110%;
+    background-color: #00CCFF;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    text-decoration: none;
+}
+
+#text {
+    margin: 30px;
+    text-align: center;
+    font-size: 120%;
+    color: #383838;
+}
+
+#title {
+    text-align: center;
+    font-size: 120%;
+    color: #00CCFF;
+}
+
+#empty {
+    display: inline;
+    margin-left: -15px;
+}
+
+#check {
+    margin-left: -18px;
+}
+
+ul {
+    list-style: none;
+}
+
+#stack {
+    float: right;
+    margin-right: 25px;
+}
+
+hr#pad {
+    margin-left: -10px;
+    margin-right: 30px;
+}
+
+#auto {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-left: 0px;
+}
+
+#imagelist {
+    padding: 0;
+    margin-top: -1px;
+}
+
+#arrow1,
+#arrow2 {
+    visibility: hidden;
+}
+
+#prev,
+#next,
+#tokyo {
+    visibility: visible;
+}
+
+#tokyo {
+    font-size: 150%;
+}
+
+
+/*#thirdrow {
+    height: 480px;
+}
+
+#ml,
+#ed,
+#ah {
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 18px;
+}
+
+#one,
+#two,
+#three {
+    
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 30px solid #D8D8D8;
+    background-color: white;
+}
+
+#opa1,
+#opa2,
+#opa3 {
+    opacity: 0.7;
+}
+
+#opa1:hover,
+#opa2:hover,
+#opa3:hover {
+    opacity: 1.0;
+}
+
+#name {
+    color: #00CCCC;
+    margin-top: -10px;
+    text-align: center;
+}
+
+#age {
+    color: #D8D8D8;
+    margin-top: -15px;
+    text-align: center;
+}
+
+#describe {
+    color: #383838;
+}
+
+#ml:hover,
+#ed:hover,
+#ah:hover {
+    -webkit-transform: rotate(20deg);
+    transition-duration: 0.2s;
+}
